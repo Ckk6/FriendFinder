@@ -1,10 +1,10 @@
 var friendArray = [];
 app.get('/api/friends', function(req, res){
-	res.sendFile(path.join(__dirname, 'survey.html'));
+	res.sendFile(path.join(__dirname, '../public','survey.html'));
 })
 // We then display the JSON to the users
  	res.json(newFriend);
- 
+
 
 
 // Take in data from survey- takes in JSON input

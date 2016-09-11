@@ -14,7 +14,7 @@ var path = require('path');
 
 		router.get('/survey', function(req, res){
 		res.sendFile(path.join(__dirname, '../public','survey.html'));
-		
+		})
 		
 
 module.exports = router;	

@@ -14,6 +14,7 @@ app.get('/api/friends', function(req, res){
  	var newFriend = req.body;
  
  	console.log(newFriend);
+ 	//
  
  	// We then add the json the user sent to the friend array
  	
